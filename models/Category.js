@@ -28,3 +28,14 @@ Category.init({
 });
 
 module.exports = Category;
+
+
+// // This column will store a reference of the `id` of the `Driver` that owns this License
+// driver_id: {
+//   type: DataTypes.INTEGER,
+//   references: {
+//     // This references the `driver` model, which we set in `Driver.js` as its `modelName` property
+//     model: 'driver',
+//     key: 'id',
+//   },
+// },
